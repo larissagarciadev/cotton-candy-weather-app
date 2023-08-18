@@ -1,0 +1,135 @@
+body {
+  background: url("media/pinkclouds.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(82, 82, 82);
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+footer {
+  font-family: monospace;
+  font-size: 11px;
+  text-align: center;
+}
+
+.container {
+  border: 3px solid rgb(254, 202, 204);
+  border-radius: 40px;
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.2);
+  height: 550px;
+  margin-bottom: 13px;
+  margin-top: 82px;
+  padding-top: 30px;
+  text-align: center;
+  width: 550px;
+}
+
+.first-line {
+  margin-bottom: 20px;
+}
+
+.enter-city-input {
+  background: rgb(265, 242, 242);
+  border: 2px solid rgb(254, 202, 204);
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.magnifying-glass-button {
+  background: rgb(265, 242, 242);
+  border: none;
+  border-radius: 5px;
+  color: rgb(92, 92, 92);
+}
+
+.system-units-button {
+  background: rgb(142, 142, 142);
+  border: 2px solid rgb(254, 202, 204);
+  border-radius: 5px;
+  color: rgb(254, 202, 204);
+  font-size: 12px;
+  padding: 2px 7px;
+}
+
+.system-units-button:hover {
+  background: rgb(254, 202, 204);
+  border: 2px solid rgb(142, 142, 142);
+  color: rgb(142, 142, 142);
+  transition: all 150ms ease-in-out;
+}
+
+.circle {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.6),
+    rgb(254, 202, 204)
+  );
+  border: 2px solid rgb(254, 202, 204);
+  border-radius: 50%;
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.2);
+  height: 320px;
+  line-height: 30px;
+  margin-left: 30px;
+  padding-top: 40px;
+  width: 320px;
+}
+
+.city {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+
+.current-emoji {
+  font-size: 4em;
+  padding-left: 30px;
+}
+
+.current-temperature {
+  font-size: 40px;
+  padding-left: 15px;
+}
+
+.temperature-unity {
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+.current-min-max {
+  font-size: 13px;
+  margin-top: 30px;
+}
+
+.additional-info {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 25px;
+  margin-left: 373px;
+  margin-top: -195px;
+  margin-bottom: 155px;
+  text-align: left;
+}
+
+.forecast-next-days {
+  background: rgb(258, 232, 233);
+  border-radius: 20px;
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.1);
+  margin-inline: 30px;
+  padding-left: 73px;
+}
+
+.next-days-emojis {
+  font-size: 1.5em;
+}
+
+.next-days-min-max {
+  font-size: 13px;
+}
+
+.open-source-code {
+  color: rgb(144, 92, 94);
+  font-weight: 600;
+  text-decoration: none;
+}
